@@ -22,7 +22,7 @@ public class MyBootApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 
 		// 1. addCustomer
-		Customer cust1 = new Customer(112, "Bharath", "bharath@gmail.com", 6666, "Blore");
+		Customer cust1 = new Customer(111, "Amrita", "amrita@gmail.com", 6666, "Blore");
 		cdao.addCustomer(cust1);
 
 		// 2. getAllCustomer
