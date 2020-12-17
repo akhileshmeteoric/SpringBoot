@@ -23,7 +23,7 @@ public class MyBootApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		log.info("My Boot Application...starts");
+		log.info("My Boot Application....starts");
 		log.debug("My Boot Application...starts");
 		log.info("----------------------------------");
 		Customer cust1 = new Customer(98, "sd", "sd@jlc", 9999, "Blore");
