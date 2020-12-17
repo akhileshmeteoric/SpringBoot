@@ -21,7 +21,7 @@ public class MyBootApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		// 1. addCustomer
+		//  1. addCustomer
 		Customer cust1 = new Customer("Nikita", "niki@gmail.com", 6666, "Blore");
 		cdao.addCustomer(cust1);
 
